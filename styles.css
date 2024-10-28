@@ -1,2 +1,39 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  justify-content: space-between; /* Ensures space between elements */
+  padding: 10px;
+  width: 100px;
+  height:100px;
+	margin:20px
+
+}
+
+.holder div {
+  flex: 1 1 auto; /* Allows flexibility, but prevents items from squishing */
+  margin: 5px;
+  min-width: 100px; /* Ensures items have a minimum width */
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
